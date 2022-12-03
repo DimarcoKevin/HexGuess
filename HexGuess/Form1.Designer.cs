@@ -24,12 +24,12 @@
         /// </summary>
         private void InitializeComponent() {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.hex1 = new System.Windows.Forms.Label();
+            this.hex2 = new System.Windows.Forms.Label();
+            this.hex3 = new System.Windows.Forms.Label();
+            this.rgb1 = new System.Windows.Forms.Label();
+            this.rgb2 = new System.Windows.Forms.Label();
+            this.rgb3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -45,63 +45,69 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
+            // hex1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(196, 221);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.hex1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hex1.Location = new System.Drawing.Point(161, 221);
+            this.hex1.Name = "hex1";
+            this.hex1.Size = new System.Drawing.Size(100, 19);
+            this.hex1.TabIndex = 1;
+            this.hex1.Text = "label1";
+            this.hex1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // hex2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(373, 221);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.hex2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hex2.Location = new System.Drawing.Point(338, 221);
+            this.hex2.Name = "hex2";
+            this.hex2.Size = new System.Drawing.Size(100, 19);
+            this.hex2.TabIndex = 2;
+            this.hex2.Text = "label2";
+            this.hex2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // hex3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(548, 228);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.hex3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hex3.Location = new System.Drawing.Point(511, 221);
+            this.hex3.Name = "hex3";
+            this.hex3.Size = new System.Drawing.Size(100, 19);
+            this.hex3.TabIndex = 3;
+            this.hex3.Text = "label3";
+            this.hex3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // rgb1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(196, 259);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
+            this.rgb1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rgb1.Location = new System.Drawing.Point(161, 259);
+            this.rgb1.Name = "rgb1";
+            this.rgb1.Size = new System.Drawing.Size(100, 19);
+            this.rgb1.TabIndex = 4;
+            this.rgb1.Text = "label4";
+            this.rgb1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // rgb2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(373, 259);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
+            this.rgb2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rgb2.Location = new System.Drawing.Point(338, 259);
+            this.rgb2.Name = "rgb2";
+            this.rgb2.Size = new System.Drawing.Size(100, 19);
+            this.rgb2.TabIndex = 5;
+            this.rgb2.Text = "label5";
+            this.rgb2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // rgb3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(548, 259);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "label6";
+            this.rgb3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rgb3.Location = new System.Drawing.Point(511, 259);
+            this.rgb3.Name = "rgb3";
+            this.rgb3.Size = new System.Drawing.Size(100, 19);
+            this.rgb3.TabIndex = 6;
+            this.rgb3.Text = "label6";
+            this.rgb3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(179, 317);
+            this.button1.Location = new System.Drawing.Point(174, 317);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -110,7 +116,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(384, 320);
+            this.button2.Location = new System.Drawing.Point(351, 320);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -119,7 +125,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(560, 315);
+            this.button3.Location = new System.Drawing.Point(524, 315);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 9;
@@ -128,12 +134,13 @@
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(373, 393);
+            this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(78, 393);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
+            this.label7.Size = new System.Drawing.Size(620, 19);
             this.label7.TabIndex = 10;
             this.label7.Text = "label7";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -144,30 +151,29 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.rgb3);
+            this.Controls.Add(this.rgb2);
+            this.Controls.Add(this.rgb1);
+            this.Controls.Add(this.hex3);
+            this.Controls.Add(this.hex2);
+            this.Controls.Add(this.hex1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private PictureBox pictureBox1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
+        private Label hex1;
+        private Label hex2;
+        private Label hex3;
+        private Label rgb1;
+        private Label rgb2;
+        private Label rgb3;
         private Button button1;
         private Button button2;
         private Button button3;
