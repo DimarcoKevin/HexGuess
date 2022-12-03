@@ -34,6 +34,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.lblHex = new System.Windows.Forms.Label();
+            this.lblRgb = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,9 +80,9 @@
             // rgb1
             // 
             this.rgb1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rgb1.Location = new System.Drawing.Point(161, 259);
+            this.rgb1.Location = new System.Drawing.Point(141, 259);
             this.rgb1.Name = "rgb1";
-            this.rgb1.Size = new System.Drawing.Size(100, 19);
+            this.rgb1.Size = new System.Drawing.Size(141, 19);
             this.rgb1.TabIndex = 4;
             this.rgb1.Text = "label4";
             this.rgb1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -88,9 +90,9 @@
             // rgb2
             // 
             this.rgb2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rgb2.Location = new System.Drawing.Point(338, 259);
+            this.rgb2.Location = new System.Drawing.Point(318, 259);
             this.rgb2.Name = "rgb2";
-            this.rgb2.Size = new System.Drawing.Size(100, 19);
+            this.rgb2.Size = new System.Drawing.Size(141, 19);
             this.rgb2.TabIndex = 5;
             this.rgb2.Text = "label5";
             this.rgb2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -98,9 +100,9 @@
             // rgb3
             // 
             this.rgb3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rgb3.Location = new System.Drawing.Point(511, 259);
+            this.rgb3.Location = new System.Drawing.Point(491, 259);
             this.rgb3.Name = "rgb3";
-            this.rgb3.Size = new System.Drawing.Size(100, 19);
+            this.rgb3.Size = new System.Drawing.Size(141, 19);
             this.rgb3.TabIndex = 6;
             this.rgb3.Text = "label6";
             this.rgb3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -142,11 +144,33 @@
             this.label7.Text = "label7";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblHex
+            // 
+            this.lblHex.AutoSize = true;
+            this.lblHex.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblHex.Location = new System.Drawing.Point(27, 221);
+            this.lblHex.Name = "lblHex";
+            this.lblHex.Size = new System.Drawing.Size(77, 19);
+            this.lblHex.TabIndex = 11;
+            this.lblHex.Text = "Hex Code";
+            // 
+            // lblRgb
+            // 
+            this.lblRgb.AutoSize = true;
+            this.lblRgb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRgb.Location = new System.Drawing.Point(30, 259);
+            this.lblRgb.Name = "lblRgb";
+            this.lblRgb.Size = new System.Drawing.Size(80, 19);
+            this.lblRgb.TabIndex = 12;
+            this.lblRgb.Text = "RGB Code";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblRgb);
+            this.Controls.Add(this.lblHex);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -163,6 +187,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -179,5 +204,7 @@
         private Button button2;
         private Button button3;
         private Label label7;
+        private Label lblHex;
+        private Label lblRgb;
     }
 }
