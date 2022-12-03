@@ -23,7 +23,7 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.colourBox = new System.Windows.Forms.PictureBox();
             this.hex1 = new System.Windows.Forms.Label();
             this.hex2 = new System.Windows.Forms.Label();
             this.hex3 = new System.Windows.Forms.Label();
@@ -36,16 +36,16 @@
             this.label7 = new System.Windows.Forms.Label();
             this.lblHex = new System.Windows.Forms.Label();
             this.lblRgb = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.colourBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // colourBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(269, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(239, 170);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.colourBox.Location = new System.Drawing.Point(269, 12);
+            this.colourBox.Name = "colourBox";
+            this.colourBox.Size = new System.Drawing.Size(239, 170);
+            this.colourBox.TabIndex = 0;
+            this.colourBox.TabStop = false;
             // 
             // hex1
             // 
@@ -118,7 +118,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(351, 320);
+            this.button2.Location = new System.Drawing.Point(351, 317);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -127,7 +127,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(524, 315);
+            this.button3.Location = new System.Drawing.Point(524, 317);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 9;
@@ -148,7 +148,7 @@
             // 
             this.lblHex.AutoSize = true;
             this.lblHex.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblHex.Location = new System.Drawing.Point(27, 221);
+            this.lblHex.Location = new System.Drawing.Point(33, 221);
             this.lblHex.Name = "lblHex";
             this.lblHex.Size = new System.Drawing.Size(77, 19);
             this.lblHex.TabIndex = 11;
@@ -181,11 +181,11 @@
             this.Controls.Add(this.hex3);
             this.Controls.Add(this.hex2);
             this.Controls.Add(this.hex1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.colourBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.colourBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,7 +193,7 @@
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private PictureBox colourBox;
         private Label hex1;
         private Label hex2;
         private Label hex3;
