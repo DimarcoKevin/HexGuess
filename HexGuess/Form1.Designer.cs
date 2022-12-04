@@ -30,12 +30,13 @@
             this.rgb1 = new System.Windows.Forms.Label();
             this.rgb2 = new System.Windows.Forms.Label();
             this.rgb3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.choose1 = new System.Windows.Forms.Button();
+            this.choose2 = new System.Windows.Forms.Button();
+            this.choose3 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.lblHex = new System.Windows.Forms.Label();
             this.lblRgb = new System.Windows.Forms.Label();
+            this.playAgainButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.colourBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,37 +108,37 @@
             this.rgb3.Text = "label6";
             this.rgb3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // choose1
             // 
-            this.button1.Location = new System.Drawing.Point(174, 317);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.choose1.Location = new System.Drawing.Point(174, 295);
+            this.choose1.Name = "choose1";
+            this.choose1.Size = new System.Drawing.Size(75, 23);
+            this.choose1.TabIndex = 7;
+            this.choose1.Text = "Choose";
+            this.choose1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // choose2
             // 
-            this.button2.Location = new System.Drawing.Point(351, 317);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.choose2.Location = new System.Drawing.Point(351, 295);
+            this.choose2.Name = "choose2";
+            this.choose2.Size = new System.Drawing.Size(75, 23);
+            this.choose2.TabIndex = 8;
+            this.choose2.Text = "Choose";
+            this.choose2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // choose3
             // 
-            this.button3.Location = new System.Drawing.Point(524, 317);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.choose3.Location = new System.Drawing.Point(524, 295);
+            this.choose3.Name = "choose3";
+            this.choose3.Size = new System.Drawing.Size(75, 23);
+            this.choose3.TabIndex = 9;
+            this.choose3.Text = "Choose";
+            this.choose3.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(78, 393);
+            this.label7.Location = new System.Drawing.Point(78, 357);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(620, 19);
             this.label7.TabIndex = 10;
@@ -164,17 +165,27 @@
             this.lblRgb.TabIndex = 12;
             this.lblRgb.Text = "RGB Code";
             // 
+            // playAgainButton
+            // 
+            this.playAgainButton.Location = new System.Drawing.Point(351, 410);
+            this.playAgainButton.Name = "playAgainButton";
+            this.playAgainButton.Size = new System.Drawing.Size(75, 23);
+            this.playAgainButton.TabIndex = 13;
+            this.playAgainButton.Text = "Play Again";
+            this.playAgainButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.playAgainButton);
             this.Controls.Add(this.lblRgb);
             this.Controls.Add(this.lblHex);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.choose3);
+            this.Controls.Add(this.choose2);
+            this.Controls.Add(this.choose1);
             this.Controls.Add(this.rgb3);
             this.Controls.Add(this.rgb2);
             this.Controls.Add(this.rgb1);
@@ -200,11 +211,12 @@
         private Label rgb1;
         private Label rgb2;
         private Label rgb3;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button choose1;
+        private Button choose2;
+        private Button choose3;
         private Label label7;
         private Label lblHex;
         private Label lblRgb;
+        private Button playAgainButton;
     }
 }
