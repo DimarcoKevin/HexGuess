@@ -9,33 +9,61 @@ namespace HexGuess {
         }
 
         private void startGame() {
-            String hexVal1 = createHex();
-            String hexVal2 = createHex();
-            String hexVal3 = createHex();
-            String rgbVal1 = createRgbFromHex(hexVal1);
-            String rgbVal2 = createRgbFromHex(hexVal2);
-            String rgbVal3 = createRgbFromHex(hexVal3);
+            String[] hexVal = new String[3];
+            String[] rgbVal = new String[3];
 
-            hex1.Text = hexVal1;
-            hex2.Text = hexVal2;
-            hex3.Text = hexVal3;
-            rgb1.Text = rgbVal1;
-            rgb2.Text = rgbVal2;
-            rgb3.Text = rgbVal3;
+            hexVal[0] = createHex();
+            hexVal[1] = createHex();
+            hexVal[2] = createHex();
+            rgbVal[0] = createRgbFromHex(hexVal[0]);
+            rgbVal[1] = createRgbFromHex(hexVal[1]);
+            rgbVal[2] = createRgbFromHex(hexVal[2]);
+
+            hex1.Text = hexVal[0];
+            hex2.Text = hexVal[1];
+            hex3.Text = hexVal[2];
+            rgb1.Text = rgbVal[0];
+            rgb2.Text = rgbVal[1];
+            rgb3.Text = rgbVal[2];
+
+            chooseColour(rgbVal);
         }
 
+        private String getChosenColour() {
+            return colourBox.BackColor.ToString();
+        }
+
+        private void chooseColour(String[] rgb) {
+            // first randomly choose which one to use
+            Random rnd = new Random();
+            int chosen = rnd.Next(0, 2);
+
+            String[] numbers = rgb[chosen].Split(",");
+
+            int num1 = Convert.ToInt32(numbers[0]);
+            int num2 = Convert.ToInt32(numbers[1]);
+            int num3 = Convert.ToInt32(numbers[2]);
+
+
+            colourBox.BackColor = Color.FromArgb(255, num1, num2, num3);
+        }
+
+        // grabs two hex values starting at place
+        private String getHexSubstring(String hex, int place) {
+            return hex.Substring(place, 2);
+        }
 
         private String createRgbFromHex(String hex) {
-            String val1 = hex.Substring(0,2);
-            String val2 = hex.Substring(2,2);
-            String val3 = hex.Substring(4,2);
+            String val1 = getHexSubstring(hex, 0);
+            String val2 = getHexSubstring(hex, 2);
+            String val3 = getHexSubstring(hex, 4);
 
             int rgb1 = Convert.ToInt32(val1, 16);
             int rgb2 = Convert.ToInt32(val2, 16);
             int rgb3 = Convert.ToInt32(val3, 16);
 
-            return String.Format("{0:000}", rgb1) + ", "
-                + String.Format("{0:000}", rgb2) + ", "
+            return String.Format("{0:000}", rgb1) + ","
+                + String.Format("{0:000}", rgb2) + ","
                 + String.Format("{0:000}", rgb3);
         }
 
