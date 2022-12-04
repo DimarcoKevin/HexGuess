@@ -1,5 +1,7 @@
 namespace HexGuess {
     public partial class Form1 : Form {
+        String? correct;
+
         public Form1() {
             InitializeComponent();
         }
@@ -26,8 +28,7 @@ namespace HexGuess {
             rgb2.Text = rgbVal[1];
             rgb3.Text = rgbVal[2];
 
-            String correct = chooseColour(rgbVal);
-            lblOutput.Text = correct;
+            correct = chooseColour(rgbVal);
         }
 
         private String chooseColour(String[] rgb) {
@@ -79,19 +80,31 @@ namespace HexGuess {
         }
 
         private void choose1_Click(object sender, EventArgs e) {
- 
+            if (rgb1.Text.Equals(correct)) {
+                lblOutput.Text = "Correct!";
+            } else {
+                lblOutput.Text = "Incorrect, try again!";
+            }
         }
 
         private void choose2_Click(object sender, EventArgs e) {
-
+            if (rgb2.Text.Equals(correct)) {
+                lblOutput.Text = "Correct!";
+            } else {
+                lblOutput.Text = "Incorrect, try again!";
+            }
         }
 
         private void choose3_Click(object sender, EventArgs e) {
-
+            if (rgb3.Text.Equals(correct)) {
+                lblOutput.Text = "Correct!";
+            } else {
+                lblOutput.Text = "Incorrect, try again!";
+            }
         }
 
         private void playAgainButton_Click(object sender, EventArgs e) {
-
+            startGame();
         }
     }
 }

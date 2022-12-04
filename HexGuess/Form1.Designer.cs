@@ -145,7 +145,6 @@
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(620, 19);
             this.lblOutput.TabIndex = 10;
-            this.lblOutput.Text = "label7";
             this.lblOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblHex
