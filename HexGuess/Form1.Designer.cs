@@ -42,9 +42,9 @@
             // 
             // colourBox
             // 
-            this.colourBox.Location = new System.Drawing.Point(269, 12);
+            this.colourBox.Location = new System.Drawing.Point(78, 12);
             this.colourBox.Name = "colourBox";
-            this.colourBox.Size = new System.Drawing.Size(239, 170);
+            this.colourBox.Size = new System.Drawing.Size(620, 170);
             this.colourBox.TabIndex = 0;
             this.colourBox.TabStop = false;
             // 
