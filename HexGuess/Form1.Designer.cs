@@ -50,6 +50,7 @@
             // 
             // hex1
             // 
+            this.hex1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hex1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hex1.Location = new System.Drawing.Point(161, 221);
             this.hex1.Name = "hex1";
@@ -60,6 +61,7 @@
             // 
             // hex2
             // 
+            this.hex2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hex2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hex2.Location = new System.Drawing.Point(338, 221);
             this.hex2.Name = "hex2";
@@ -70,6 +72,7 @@
             // 
             // hex3
             // 
+            this.hex3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hex3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hex3.Location = new System.Drawing.Point(511, 221);
             this.hex3.Name = "hex3";
@@ -80,30 +83,33 @@
             // 
             // rgb1
             // 
+            this.rgb1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rgb1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rgb1.Location = new System.Drawing.Point(141, 259);
+            this.rgb1.Location = new System.Drawing.Point(161, 259);
             this.rgb1.Name = "rgb1";
-            this.rgb1.Size = new System.Drawing.Size(141, 19);
+            this.rgb1.Size = new System.Drawing.Size(100, 19);
             this.rgb1.TabIndex = 4;
             this.rgb1.Text = "label4";
             this.rgb1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rgb2
             // 
+            this.rgb2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rgb2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rgb2.Location = new System.Drawing.Point(318, 259);
+            this.rgb2.Location = new System.Drawing.Point(338, 259);
             this.rgb2.Name = "rgb2";
-            this.rgb2.Size = new System.Drawing.Size(141, 19);
+            this.rgb2.Size = new System.Drawing.Size(100, 19);
             this.rgb2.TabIndex = 5;
             this.rgb2.Text = "label5";
             this.rgb2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rgb3
             // 
+            this.rgb3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rgb3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rgb3.Location = new System.Drawing.Point(491, 259);
+            this.rgb3.Location = new System.Drawing.Point(511, 259);
             this.rgb3.Name = "rgb3";
-            this.rgb3.Size = new System.Drawing.Size(141, 19);
+            this.rgb3.Size = new System.Drawing.Size(100, 19);
             this.rgb3.TabIndex = 6;
             this.rgb3.Text = "label6";
             this.rgb3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -197,7 +203,7 @@
             this.Controls.Add(this.hex1);
             this.Controls.Add(this.colourBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Hex Guess";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.colourBox)).EndInit();
             this.ResumeLayout(false);

@@ -29,6 +29,7 @@ namespace HexGuess {
             rgb3.Text = rgbVal[2];
 
             correct = chooseColour(rgbVal);
+            lblOutput.Text = "";
         }
 
         private String chooseColour(String[] rgb) {
