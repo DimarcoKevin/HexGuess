@@ -33,7 +33,7 @@
             this.choose1 = new System.Windows.Forms.Button();
             this.choose2 = new System.Windows.Forms.Button();
             this.choose3 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.lblHex = new System.Windows.Forms.Label();
             this.lblRgb = new System.Windows.Forms.Label();
             this.playAgainButton = new System.Windows.Forms.Button();
@@ -138,15 +138,15 @@
             this.choose3.UseVisualStyleBackColor = true;
             this.choose3.Click += new System.EventHandler(this.choose3_Click);
             // 
-            // label7
+            // lblOutput
             // 
-            this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(78, 357);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(620, 19);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "label7";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutput.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOutput.Location = new System.Drawing.Point(78, 357);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(620, 19);
+            this.lblOutput.TabIndex = 10;
+            this.lblOutput.Text = "label7";
+            this.lblOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblHex
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.playAgainButton);
             this.Controls.Add(this.lblRgb);
             this.Controls.Add(this.lblHex);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.choose3);
             this.Controls.Add(this.choose2);
             this.Controls.Add(this.choose1);
@@ -218,7 +218,7 @@
         private Button choose1;
         private Button choose2;
         private Button choose3;
-        private Label label7;
+        private Label lblOutput;
         private Label lblHex;
         private Label lblRgb;
         private Button playAgainButton;

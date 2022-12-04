@@ -26,14 +26,11 @@ namespace HexGuess {
             rgb2.Text = rgbVal[1];
             rgb3.Text = rgbVal[2];
 
-            chooseColour(rgbVal);
+            String correct = chooseColour(rgbVal);
+            lblOutput.Text = correct;
         }
 
-        private String getChosenColour() {
-            return colourBox.BackColor.ToString();
-        }
-
-        private void chooseColour(String[] rgb) {
+        private String chooseColour(String[] rgb) {
             // first randomly choose which one to use
             Random rnd = new Random();
             int chosen = rnd.Next(0, 2);
@@ -46,6 +43,8 @@ namespace HexGuess {
 
 
             colourBox.BackColor = Color.FromArgb(255, num1, num2, num3);
+
+            return rgb[chosen];
         }
 
         // grabs two hex values starting at place
@@ -80,7 +79,7 @@ namespace HexGuess {
         }
 
         private void choose1_Click(object sender, EventArgs e) {
-
+ 
         }
 
         private void choose2_Click(object sender, EventArgs e) {
