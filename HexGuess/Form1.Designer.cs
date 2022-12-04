@@ -54,7 +54,7 @@
             this.hex1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hex1.Location = new System.Drawing.Point(161, 221);
             this.hex1.Name = "hex1";
-            this.hex1.Size = new System.Drawing.Size(100, 19);
+            this.hex1.Size = new System.Drawing.Size(109, 19);
             this.hex1.TabIndex = 1;
             this.hex1.Text = "label1";
             this.hex1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -65,7 +65,7 @@
             this.hex2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hex2.Location = new System.Drawing.Point(338, 221);
             this.hex2.Name = "hex2";
-            this.hex2.Size = new System.Drawing.Size(100, 19);
+            this.hex2.Size = new System.Drawing.Size(109, 19);
             this.hex2.TabIndex = 2;
             this.hex2.Text = "label2";
             this.hex2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -76,7 +76,7 @@
             this.hex3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hex3.Location = new System.Drawing.Point(511, 221);
             this.hex3.Name = "hex3";
-            this.hex3.Size = new System.Drawing.Size(100, 19);
+            this.hex3.Size = new System.Drawing.Size(109, 19);
             this.hex3.TabIndex = 3;
             this.hex3.Text = "label3";
             this.hex3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,7 +87,7 @@
             this.rgb1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rgb1.Location = new System.Drawing.Point(161, 259);
             this.rgb1.Name = "rgb1";
-            this.rgb1.Size = new System.Drawing.Size(100, 19);
+            this.rgb1.Size = new System.Drawing.Size(109, 19);
             this.rgb1.TabIndex = 4;
             this.rgb1.Text = "label4";
             this.rgb1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -98,7 +98,7 @@
             this.rgb2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rgb2.Location = new System.Drawing.Point(338, 259);
             this.rgb2.Name = "rgb2";
-            this.rgb2.Size = new System.Drawing.Size(100, 19);
+            this.rgb2.Size = new System.Drawing.Size(109, 19);
             this.rgb2.TabIndex = 5;
             this.rgb2.Text = "label5";
             this.rgb2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -109,14 +109,14 @@
             this.rgb3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rgb3.Location = new System.Drawing.Point(511, 259);
             this.rgb3.Name = "rgb3";
-            this.rgb3.Size = new System.Drawing.Size(100, 19);
+            this.rgb3.Size = new System.Drawing.Size(109, 19);
             this.rgb3.TabIndex = 6;
             this.rgb3.Text = "label6";
             this.rgb3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // choose1
             // 
-            this.choose1.Location = new System.Drawing.Point(174, 295);
+            this.choose1.Location = new System.Drawing.Point(178, 295);
             this.choose1.Name = "choose1";
             this.choose1.Size = new System.Drawing.Size(75, 23);
             this.choose1.TabIndex = 7;
@@ -126,7 +126,7 @@
             // 
             // choose2
             // 
-            this.choose2.Location = new System.Drawing.Point(351, 295);
+            this.choose2.Location = new System.Drawing.Point(355, 295);
             this.choose2.Name = "choose2";
             this.choose2.Size = new System.Drawing.Size(75, 23);
             this.choose2.TabIndex = 8;
@@ -136,7 +136,7 @@
             // 
             // choose3
             // 
-            this.choose3.Location = new System.Drawing.Point(524, 295);
+            this.choose3.Location = new System.Drawing.Point(528, 295);
             this.choose3.Name = "choose3";
             this.choose3.Size = new System.Drawing.Size(75, 23);
             this.choose3.TabIndex = 9;
