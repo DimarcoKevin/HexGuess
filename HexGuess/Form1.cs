@@ -78,5 +78,21 @@ namespace HexGuess {
 
             return test;
         }
+
+        private void choose1_Click(object sender, EventArgs e) {
+
+        }
+
+        private void choose2_Click(object sender, EventArgs e) {
+
+        }
+
+        private void choose3_Click(object sender, EventArgs e) {
+
+        }
+
+        private void playAgainButton_Click(object sender, EventArgs e) {
+
+        }
     }
 }

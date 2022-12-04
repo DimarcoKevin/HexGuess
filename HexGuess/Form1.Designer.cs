@@ -116,6 +116,7 @@
             this.choose1.TabIndex = 7;
             this.choose1.Text = "Choose";
             this.choose1.UseVisualStyleBackColor = true;
+            this.choose1.Click += new System.EventHandler(this.choose1_Click);
             // 
             // choose2
             // 
@@ -125,6 +126,7 @@
             this.choose2.TabIndex = 8;
             this.choose2.Text = "Choose";
             this.choose2.UseVisualStyleBackColor = true;
+            this.choose2.Click += new System.EventHandler(this.choose2_Click);
             // 
             // choose3
             // 
@@ -134,6 +136,7 @@
             this.choose3.TabIndex = 9;
             this.choose3.Text = "Choose";
             this.choose3.UseVisualStyleBackColor = true;
+            this.choose3.Click += new System.EventHandler(this.choose3_Click);
             // 
             // label7
             // 
@@ -173,6 +176,7 @@
             this.playAgainButton.TabIndex = 13;
             this.playAgainButton.Text = "Play Again";
             this.playAgainButton.UseVisualStyleBackColor = true;
+            this.playAgainButton.Click += new System.EventHandler(this.playAgainButton_Click);
             // 
             // Form1
             // 
